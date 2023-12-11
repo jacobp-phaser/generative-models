@@ -19,7 +19,7 @@ from torch import autocast
 from torchvision import transforms
 from torchvision.utils import make_grid, save_image
 
-from scripts.demo.discretization import (Img2ImgDiscretizationWrapper,
+from discretization import (Img2ImgDiscretizationWrapper,
                                          Txt2NoisyDiscretizationWrapper)
 from scripts.util.detection.nsfw_and_watermark_dectection import \
     DeepFloydDataFiltering
